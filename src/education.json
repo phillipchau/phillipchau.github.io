@@ -1,0 +1,12 @@
+{
+    "Education":[
+        {
+            "title": "University of Pennsylvania - BSE in Computer Science",
+            "logo": "https://branding.web-resources.upenn.edu/sites/default/files/simplified-shield-final%20%285%29.png",
+            "date": "August 2019 - June 2023",
+            "location": "Philadelphia, PA",
+            "content": "Bachelor of Science Engineering in Computer Science with a concentration in Data Science",
+            "coursework": "Relevant Coursework: Machine Learning, Database and Information Systems, Big Data Analytics, Data Structures and Algorithms, Scalable and Cloud Computing"
+        }
+    ]
+}
