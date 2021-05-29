@@ -14,22 +14,20 @@ function App() {
   return (
     <>
     <TopBar />
-    <Router>
       <Switch>
         <Route exact path="/">
           <MainPage />
         </Route>
-        <Route path="/experience">
+        <Route exact path="/experience">
           <Experience />
         </Route>
-        <Route path="/education">
+        <Route exact path="/education">
           <Education />
         </Route>
-        <Route path="/projects">
+        <Route exact path="/projects">
           <Projects />
         </Route>
       </Switch>
-    </Router>
     </>
   );
 }

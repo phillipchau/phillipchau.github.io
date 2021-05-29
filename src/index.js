@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {HashRouter} from 'react-router-dom'
 import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
@@ -8,7 +9,9 @@ import 'react-slideshow-image/dist/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
