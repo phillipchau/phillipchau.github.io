@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.43a6b7a3.chunk.css",
-    "main.js": "/static/js/main.287239aa.chunk.js",
-    "main.js.map": "/static/js/main.287239aa.chunk.js.map",
+    "main.js": "/static/js/main.e4b8f677.chunk.js",
+    "main.js.map": "/static/js/main.e4b8f677.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c781d9fe.js",
     "runtime-main.js.map": "/static/js/runtime-main.c781d9fe.js.map",
     "static/css/2.0b940d43.chunk.css": "/static/css/2.0b940d43.chunk.css",
@@ -22,10 +22,12 @@
     "static/media/covid_map.0aabfd4e.png": "/static/media/covid_map.0aabfd4e.png",
     "static/media/covid_news.4879c841.png": "/static/media/covid_news.4879c841.png",
     "static/media/covid_vaccine.7b458664.png": "/static/media/covid_vaccine.7b458664.png",
-    "static/media/education.271d7a92.png": "/static/media/education.271d7a92.png",
+    "static/media/education.7b8e1df1.png": "/static/media/education.7b8e1df1.png",
     "static/media/electionbox.ce47c921.png": "/static/media/electionbox.ce47c921.png",
+    "static/media/experience.9438d140.png": "/static/media/experience.9438d140.png",
     "static/media/home.6f7a12e3.png": "/static/media/home.6f7a12e3.png",
     "static/media/importance.a7377b0b.png": "/static/media/importance.a7377b0b.png",
+    "static/media/main.4bf0b5e8.png": "/static/media/main.4bf0b5e8.png",
     "static/media/medianbox.89606374.png": "/static/media/medianbox.89606374.png",
     "static/media/news.b8565a58.png": "/static/media/news.b8565a58.png",
     "static/media/phillipphoto.e2685d94.JPG": "/static/media/phillipphoto.e2685d94.JPG",
@@ -39,6 +41,6 @@
     "static/css/2.0b940d43.chunk.css",
     "static/js/2.6f2e2a5a.chunk.js",
     "static/css/main.43a6b7a3.chunk.css",
-    "static/js/main.287239aa.chunk.js"
+    "static/js/main.e4b8f677.chunk.js"
   ]
 }
