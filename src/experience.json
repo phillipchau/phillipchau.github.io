@@ -1,0 +1,28 @@
+{
+    "Experience":[
+        {
+            "title": "Kessel Run - Software Engineering Intern",
+            "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQFJORarZnrFxQ/company-logo_200_200/0/1545621933315?e=2159024400&v=beta&t=nluoZTHdfkV_2QubepDeciVxZ2oSrq34eQrmit0Dd_I",
+            "date": "June 2021 - August 2021",
+            "location": "Boston, MA",
+            "content": ["Incoming SDE Intern"],
+            "iconsize": 100
+        },
+        {
+            "title": "Wharton Customer Analytics - Senior Analyst",
+            "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQG_KGaLRVsF9g/company-logo_200_200/0/1519906965183?e=2159024400&v=beta&t=NOkii-T-_Wnr52R4U79UWoaUzHfhnXDIeKtvELV-qDw",
+            "date": "January 2021 - April 2021",
+            "location": "Philadelphia, PA",
+            "content": ["Worked with McDonalds (client) in order to determine how their social media marketing campagins impact their brand affinity and revenue streams.", "Created ARIMAX model to forecast sales with 93% accuracy based on exogenous variables derived from McDonald's social media data.", "Generated recommendations for future social media campagins to increase sales and presented findings to client"],
+            "iconsize": 100
+        },
+        {
+            "title": "NASA - Software Engineering Intern",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/918px-NASA_logo.svg.png",
+            "date": "June 2020 - December 2020",
+            "location": "Mountain View, CA",
+            "content": ["Developed full-stack platform to manage real time aerial vehicles using React, Express.js, Node.js, SQL and AWS DynamoDB.", "Developed frontend framework to simulate and track potential collisions and flight plan mis-compliances, visualizing results with Google Maps API.", "Integrated an existing Single Sign On (SSO) service deployed via AWS in order to provide role-based access to interface."],
+            "iconsize": 100
+        }
+    ]
+}
