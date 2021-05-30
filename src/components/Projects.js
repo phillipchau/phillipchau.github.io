@@ -16,7 +16,9 @@ import covid_news from '../media/Dashboard/covid_news.png'
 import covid_vaccine from '../media/Dashboard/covid_vaccine.png'
 
 /*Personal*/
-import personal from '../media/Personal/education.png'
+import education from '../media/Personal/education.png'
+import experience from '../media/Personal/experience.png'
+import main from '../media/Personal/main.png'
 
 /*Twitter*/
 import bar from '../media/Twitter/bar.png'
@@ -34,7 +36,7 @@ function Projects() {
   //PennBook images
   const pennBook = [home, chat, news, profile, status]
   const dashboard = [ covid_home, covid_login, covid_graphs, covid_map, covid_news, covid_vaccine]
-  const personalList = [personal]
+  const personalList = [main, experience, education]
   const twitter = [text, bar]
   const crash = [type, importance]
   const election = [medianbox, electionbox]
@@ -55,6 +57,7 @@ function Projects() {
         tech = "React, Node.js, Express.js, SQL, AWS DynamoDB"
         images = {dashboard}
         pdf={false}
+        link={"https://github.com/phillipchau/cis450final"}
       />
       <ProjectWrapper 
         title="Personal Website" 
@@ -63,6 +66,7 @@ function Projects() {
         tech = "React"
         images = {personalList}
         pdf={false}
+        link={"https://github.com/phillipchau/phillipchau.github.io"}
       />
       <ProjectWrapper 
         title="Understanding the Pervasiveness of Fake News During the 2016 Presidential Election" 
@@ -70,7 +74,8 @@ function Projects() {
         description = "In this project, I used data visualization, natural language processing and data modeling in order to gain a better understanding on the factors that contribute to the pervasiveness of fake news and trained a classifier to determine fake vs real news."
         tech = "Python, Pandas, Plotly, Sklearn, NLTK "
         images = {twitter}
-        pdf={true}
+        pdf={"ENGL209.pdf"}
+        link={"https://github.com/phillipchau/Fake-News-Analysis/blob/main/Twitter_Analysis%20(1).ipynb"}
       />
       <ProjectWrapper 
         title="Identifying Key Predictors of Crash Outcome Severity using PennDOT Crash Data" 
@@ -78,7 +83,8 @@ function Projects() {
         description = "For the final project of CIS545: Big Data Analytics, I analyzed the Pennsylvania Department of Transportation Crash data over the course of a decade. Running through the entire data science pipeline, I first cleaned the data, explored trends revolving around accidents, pre-processed the data, handled class imbalance, extracted important features through MCA and finally modelled the data by creating several classifiers to determine fatal crashes using Logistic Regression, Naiive Bayes and Random Forests."
         tech="Python, Pandas, Seaborn, Sklearn, SQL"
         images = {crash}
-        pdf={true}
+        pdf={"CIS545.pdf"}
+        link={"https://github.com/phillipchau/Pennsylvania-Transportation-Accidents-Analysis/blob/main/CIS_545_Final_Project%20(1).ipynb"}
       />
       <ProjectWrapper 
         title="Analysis of the Relationship Between Socioeconomic Factors and Voter Associations Across Counties in America" 
@@ -87,6 +93,7 @@ function Projects() {
         tech = "Python, Pandas, Numpy, Sklearn, Seaborn "
         images = {election}
         pdf={false}
+        link={"https://github.com/phillipchau/Voter-Associations-Analysis/blob/main/Final_Project.ipynb"}
       />
     </div>
   );
